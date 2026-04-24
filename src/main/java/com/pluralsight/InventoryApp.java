@@ -2,13 +2,12 @@ package com.pluralsight;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
-import java.io.IOException;
 import java.util.HashMap;
 import java.util.Scanner;
 
 public class InventoryApp {
 
-    static HashMap<String, Product> inventory = new HashMap<String, Product>();
+    static HashMap<String, Product> inventory = new HashMap<>();
     static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
